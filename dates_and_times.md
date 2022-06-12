@@ -158,7 +158,7 @@ CL-USER> (ql:quickload "local-time")
 
 ### Create timestamps (encode-timestamp, universal-to-timestamp)
 
-Create a timestamp with `encode-timestamp`, giving it its number of nanoseconds, seconds, minutes, days, months and years:
+Create a timestamp with `encode-timestamp`, giving it its number of nanoseconds, seconds, minutes, hours, days, months and years:
 
 ~~~lisp
 (local-time:encode-timestamp 0 0 0 0 1 1 1984)
